@@ -1,33 +1,38 @@
+* {
+  background-image: url(photo.jpeg);
+  font-weight: bolder;
+  font-size: 18px;
+  color: #3fe00e;
+}
 #new-book-btn {
+  color: yellow;
   display: block;
   margin: 0 auto;
   padding: 20px;
-  font-size: 20px;
-  background-color: purple;
-  color: white;
-  border: none;
+  border: 1px solid yellow;
   border-radius: 10px;
   cursor: pointer;
 }
 
 form {
-  width: 500px;
+  color: yellow;
+  width: 1000px;
   margin: 50px auto;
   text-align: center;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #9eae26;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px rgba(220, 232, 6, 0.1);
 }
 input[type="text"],
 input[type="number"],
 select {
   width: 90%;
   padding: 12px;
-  font-size: 16px;
+  font-size: 26px;
   margin-top: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0e80a;
+  box-shadow: 2px 2px 5px rgba(159, 14, 14, 0.1);
   outline: none;
   transition: 0.3s;
   margin-bottom: 10px;
@@ -36,11 +41,11 @@ select {
 input[type="text"]:focus,
 input[type="number"]:focus,
 select:focus {
-  border-color: #333;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-color: #e7ea0c;
+  box-shadow: 2px 2px 5px rgba(190, 14, 14, 0.3);
 }
 label {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 10px;
   display: block;
 }
@@ -49,17 +54,20 @@ input[type="submit"] {
   padding: 12px 20px;
   font-size: 18px;
   margin-top: 20px;
-  background-color: #333;
-  color: #fff;
+  color: yellow;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  border: 1px solid yellow;
 }
 input[type="submit"]:hover {
-  background-color: #444;
+  background-color: #3fe00e;
 }
 .book-card {
   display: inline-block;
+  font-size: 28px;
+  border: 1px solid rgb(221, 236, 15);
+  border-radius: 5px;
 }
 .book-header {
   background-color: #333;
@@ -69,11 +77,10 @@ input[type="submit"]:hover {
 }
 .book-title {
   margin: 0;
-  font-size: 12px;
+  color: #3fe00e;
 }
 .book-author {
   margin: 5px 0 0 0;
-  font-size: 18px;
 }
 .book-body {
   padding: 20px;
@@ -81,12 +88,10 @@ input[type="submit"]:hover {
 }
 .book-status {
   margin: 10px 0 0 0;
-  font-size: 16px;
-  color: #333;
 }
 button {
   padding: 10px 20px;
-  border: 2px solid #333;
+  border: 2px solid #edf508;
   border-radius: 5px;
   font-size: 16px;
   font-weight: bold;
@@ -94,9 +99,9 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: #333333;
 }
 .read-status {
-  background-color: rgb(238, 131, 238);
+  font-weight: bolder;
+  font-size: 28px;
 }
