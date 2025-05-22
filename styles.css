@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 20px;
   font-size: 20px;
-  background-color: blue;
+  background-color: purple;
   color: white;
   border: none;
   border-radius: 10px;
@@ -98,5 +98,5 @@ button:hover {
   color: #fff;
 }
 .read-status {
-  background-color: blue;
+  background-color: rgb(238, 131, 238);
 }
